@@ -46,6 +46,20 @@ xor 加密 msfvenom 生成的 raw 格式 shellcode
 nim c -d=mingw --app=gui --cpu=amd64 -d:release --opt:size --passL:-static .\x2Ldr.nim
 ```
 
+## x2Ldr-Plus
+
+![image-20240101112808827](README.assets/image-20240101112808827.png)
+
+将 python 脚本生成的内容放入 nim 代码中， 修改红框处内容。
+
+![image-20240101112909399](README.assets/image-20240101112909399.png)
+
+
+
+编译文件
+
+![image-20240101113022061](README.assets/image-20240101113022061.png)
+
 
 
 # 效果
